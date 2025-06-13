@@ -1,0 +1,18 @@
+[workspace]
+authors = ["Nilesh <4813079+nilesh-patil@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "paper-tabm"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "==3.12"
+keras = ">=3.10.0,<4"
+scipy = ">=1.15.2,<2"
+numpy = ">=2.3.0,<3"
+scikit-learn = ">=1.7.0,<2"
+matplotlib = ">=3.10.3,<4"
+pytorch = ">=2.6.0,<3"
+tensorflow = ">=2.18.0,<3"
