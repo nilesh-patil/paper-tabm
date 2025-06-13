@@ -195,3 +195,4 @@ cython_debug/
 # pixi environments
 .pixi
 *.egg-info
+.DS_Store
